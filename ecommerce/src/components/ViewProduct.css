@@ -1,0 +1,53 @@
+.VIew_body
+{
+  width: 100vw;
+  height: 100vh;
+}
+.view_img
+{
+    /* border: 2px solid red; */
+    padding: 40px;
+    /* background-color: lightcyan; */
+   
+}
+.view_img img{
+    width: 500px;
+    height: 500px;
+}
+.view_Content
+{
+    display: flex;
+ /* border: 2px solid red; */
+ padding-top: 50px;
+    /* margin-right: 20px; */
+
+   
+
+}
+.right_content h1
+{
+   width: 600px;
+}
+.right_content
+{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.mrp{
+    color: #388E3C;
+    margin-top: 20px;
+}
+.right_content button{
+    padding: 15px 35px;
+    margin-right: 10px;
+    background-color: #FB641B;
+margin-top: 20px ;
+border: none;
+color: white;
+}
+.coupons
+{
+    line-height: 30px;
+    font-size: 14.5px;
+    color: #5B5B5B;
+}

@@ -1,0 +1,96 @@
+.Navbar
+{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 68px;
+    
+    z-index: 1;
+
+    /* backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%); */
+    background-color: #2874F0;
+
+
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+.ecommerce_title
+{
+    display: flex;
+    justify-content: center;
+   
+}
+.ecommerce_title h1{
+    color: white;
+}
+.bi-shop
+{
+    font-size: 30px;
+    margin-right: 5px;
+    /* margin-top: 5px; */
+    color: black;
+}
+.Navbar input
+{
+    width: 650px;
+    padding: 10px 20px;
+    background-color: #F0F5FF;
+    outline: none;
+    border: none;
+    border-radius: 4px ;
+    margin-right: 0px;
+}
+.bi-person-circle
+{
+
+   /* color: red; */
+   font-size: 25px;
+   margin-right: 20px;
+   
+}
+.bag
+{
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 0px;
+}
+.user_icon
+{
+   display: flex;
+ justify-content: center;
+ align-items: center;
+/* border:2px solid red; */
+
+   /* background-color: #FAFAFA; */
+}
+.user_icon p
+{ 
+    /* margin-top: 14px; */
+    color: white;
+    margin-right:80px ;
+}
+.modmoo
+{
+    border: 2px solid red !important;
+}
+.cartdataadd
+{
+    position: relative;
+}
+.circle
+{
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    position:absolute;
+    margin-top: -25px;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    background-color: white;
+}

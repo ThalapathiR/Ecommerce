@@ -1,0 +1,55 @@
+.login_Content
+{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    /* background-color: red */
+    background-image: url("/src/Image/pin_12.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+  
+
+  
+}
+.box_content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px !important;
+    /* border: 2px solid red !important; */
+   
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgba(223, 224, 233, 0.31);
+    border-radius: 12px;
+    border: 2px solid rgba(79, 65, 65, 0.125);
+    border-radius: 5px;
+    padding: 20px;
+}
+.box_content input
+{
+    margin-top: 20px;
+   width: 300px;
+    height: 40px;
+    padding: 0px 8px;
+    border-radius: 4px ;
+    border: none;
+
+}
+.box_content button
+{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.sign
+{
+    margin-top: 10px;
+}
